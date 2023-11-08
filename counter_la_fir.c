@@ -142,7 +142,7 @@ void main()
 	reg_mprj_datal = *(tmp+9) << 16;
 	reg_mprj_datal = *(tmp+10) << 16;	
 	*/
-	for (int i = 0;i < LEN; i++) {
+	for (int i = 0;i < 64; i++) {
 		reg_mprj_datal = *(tmp + i) << 16;
 	}
 
